@@ -2,7 +2,7 @@ import { Admin, Resource, fetchUtils } from 'react-admin';
 import jsonServerProvider from 'ra-data-json-server';
 import authProvider from './authProvider'
 import Dashboard from './Dashboard'
-import { CategoryList, CategoryCreate, CategoryEdit } from './category/Category'
+import { CategoryList, CategoryEdit, CategoryCreate } from './category/Category'
 
 const httpClient = (url, options = {}) => {
   if (!options.headers) {
